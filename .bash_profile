@@ -1,5 +1,5 @@
 alias ls='ls -G'
 alias ll='ls -l'
 alias cd..='cd ..'
-export GOPATH=$HOME/go
-export PATH=$PATH:$HOME/.local/bin:$GOPATH/bin:$HOME/.local/depot_tools
+export GOPATH=$HOME/.local/gopath:$HOME/go
+export PATH=$PATH:$HOME/.local/bin:$HOME/.local/gopath/bin:$HOME/.local/depot_tools
